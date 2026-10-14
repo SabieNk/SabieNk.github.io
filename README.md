@@ -1,6 +1,3 @@
-[SabeloNkosi3D _ Sabelo Nkosi, 3D product animation and CGI.md](https://github.com/user-attachments/files/33429582/SabeloNkosi3D._.Sabelo.Nkosi.3D.product.animation.and.CGI.md)
-[SabeloNkosi3D](#top)
-
 [Work](#espresso) [About](#about) [Contact](#contact)
 
 # Sabelo Nkosi
