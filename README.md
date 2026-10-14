@@ -1,105 +1,57 @@
-[Work](#espresso) [About](#about) [Contact](#contact)
+# SabeloNkosi3D
 
-# Sabelo Nkosi
+Portfolio site for **Sabelo Nkosi**, a 3D artist making product animation and CGI in Blender for tech and consumer products. Based in South Africa, working with clients in Johannesburg and Cape Town.
 
-3D product animation and CGI, made in Blender.
+**Live site:** https://sabienk.github.io
+**Contact:** [mr.s.nkosi.1999@gmail.com](mailto:mr.s.nkosi.1999@gmail.com)
 
-Renders of tech and consumer products for ads, launches and product pages.
+## Work
 
-Based in South Africa. Taking on clients in Johannesburg and Cape Town.
+| Project | Description | Shots |
+| --- | --- | --- |
+| Red espresso machine | Modelled in Blender from the Swan SEM8B, a retro-styled home espresso machine with a steel band, pressure gauge and steam wand. | 4 stills |
+| JBL Authentic speaker | A black and gold smart speaker with a leather-grain body, treble and bass dials and a side woofer. | 5 stills |
+| Teenage Engineering TP-7 | A field recorder with a round reel, a small display and transport buttons. | 3 stills |
 
-Open to freelance projects and studio roles
+All renders were made in Blender.
 
-Red espresso machine on a kitchen counter with a cup under the group head and a black tap beside it. Black JBL speaker with a glowing gold edge, tilted in mid-air against a dark background. A billboard against a blue sky showing a render of the TP-7 recorder next to a logo.
+## About the site
 
-[View project](#espresso)
+The whole site is a single static file, `index.html`, with the CSS, JavaScript and images embedded in it. There is no build step and nothing to install.
 
-## Red espresso machine
+- Hero reel that cycles through the featured projects
+- Project sections coloured from each project's own renders
+- Full-screen image viewer with keyboard arrows and Esc
+- Responsive layout, with light and dark theme support
+- Respects reduced-motion settings
+- Font: [Archivo](https://fonts.google.com/specimen/Archivo) via Google Fonts
 
-Modelled in Blender from the Swan SEM8B, a retro-styled home espresso machine with a steel band, pressure gauge and steam wand.
+## Run it locally
 
-Software
+Download or clone the repo and open `index.html` in a browser.
 
-Blender
+```bash
+git clone https://github.com/SabieNk/SabieNk.github.io.git
+cd SabieNk.github.io
+open index.html   # macOS; on Windows use: start index.html
+```
 
-Shots
+## Deploy with GitHub Pages
 
-4 still renders
+1. Keep `index.html` in the root of the repository.
+2. On GitHub, go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
+4. After a minute or two the site is live at https://sabienk.github.io. Because the repo is named `SabieNk.github.io`, GitHub serves it from the root of that address.
 
-Hero angle
+To use your own domain, add it under **Settings → Pages → Custom domain** and set the DNS records GitHub shows you at your registrar.
 
-In a kitchen
+## Editing the site
 
-Side profile
+- **Text and layout:** edit the HTML and CSS in `index.html`.
+- **Images:** they are embedded as base64 inside `index.html`. To swap one, replace its `data:image/jpeg;base64,...` string, or move the images into an `images/` folder and point each `<img src>` at the file.
 
-Control panel detail
+## Copyright and trademarks
 
-## JBL Authentic speaker
+All renders and site content are © 2026 Sabelo Nkosi, all rights reserved. Please don't reuse the images without permission.
 
-A black and gold smart speaker with a leather-grain body, treble and bass dials and a side woofer.
-
-Software
-
-Blender
-
-Shots
-
-5 still renders
-
-Hero angle
-
-Treble and bass dials
-
-Woofer
-
-In a living room
-
-Back and front views
-
-## Teenage Engineering TP-7
-
-A field recorder with a round reel, a small display and transport buttons.
-
-Software
-
-Blender
-
-Shots
-
-3 still renders
-
-Hero angle
-
-Close-up
-
-Billboard mockup
-
-## About
-
-I'm Sabelo, a 3D artist working in Blender. I make product renders and animation for tech and consumer brands.
-
-I have two to three years of experience in Blender and have worked in marketing for the past two, so I think about where a render will end up before I start lighting it. I also shoot and edit video in DaVinci Resolve and CapCut.
-
-Portrait of Sabelo Nkosi smiling, in a dark jacket over a green t-shirt.
-
-Product stills
-
-Hero angles, close-ups and in-context shots of your product.
-
-Product animation
-
-Reveals, turntables and camera moves for ads and launches.
-
-Ad mockups
-
-Your product placed on a billboard, in a room or on a screen.
-
-## Need a product rendered?
-
-Send a short brief with the product and where the renders will be used. I'll reply with what I can make and how long it will take.
-
-[Email Sabelo](mailto:mr.s.nkosi.1999@gmail.com?subject=Project%20enquiry)
-
-mr.s.nkosi.1999@gmail.com
-
-© 2026 Sabelo Nkosi. South Africa. [Back to top](#top)
+JBL, Teenage Engineering and Swan are trademarks of their respective owners. The renders are independent 3D work and are not affiliated with or endorsed by those companies.
